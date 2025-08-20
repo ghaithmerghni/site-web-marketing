@@ -1,0 +1,121 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+h1 {
+    color: blue;
+}
+p {
+    color: rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #a730ec;
+}
+header h1 {
+    margin: 2px 0;
+    margin-left: 10px;
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+header ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover {
+    background: white;
+    color: brown;
+    padding: 4px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+main {
+    font-family: "Mozilla Headline", sans-serif;
+    background: #8d8d8d8c;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    background-image: url(../assets/bg\ image.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+button {
+    padding: 8px ;
+    cursor: pointer;
+    color: blueviolet;
+    border:none;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 16px;
+}
+button:hover {
+    transform: scale(1.20);
+    color: aquamarine;
+    background: #007bff;
+}
+.container div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: small;
+
+}
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-3 h1 {
+    text-align: center;
+}
+
+.container-3 button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+.container-3 button:hover {
+    background: #0056b3;
+}
+.container-3 textarea {
+    width: 30%;
+    height: auto;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    min-height: 120px;
+}
+
+footer{
+    background: #222;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+}

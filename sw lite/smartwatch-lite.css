@@ -1,0 +1,151 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background: #f8f9fa;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #a730ec;
+}
+header h1 {
+    margin: 2px 0;
+    margin-left: 10px;
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+header ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover {
+    background: white;
+    color: brown;
+    padding: 4px;
+    border-radius: 20px;
+    transition: 0.3s;
+}/* Product Detail Styles */
+.product-detail {
+    padding: 60px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.main-image {
+    width: 110%;
+    height: 400px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-title {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.product-price {
+    font-size: 1.8rem;
+    color: #e74c3c;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.product-description {
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+.product-features {
+    margin-bottom: 30px;
+}
+
+.product-features li {
+    margin-bottom: 10px;
+    list-style-position: inside;
+}
+
+.quantity-selector {
+    margin-bottom: 30px;
+}
+
+.quantity-selector label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.quantity-selector input {
+    width: 60px;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+/* Specifications Table */
+.specs {
+    margin: 60px 0;
+}
+
+.specs h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.specs-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.specs-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.specs-table th, .specs-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.specs-table th {
+    background-color: #f2f2f2;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .product-detail {
+        flex-direction: column;
+    }
+    
+    .main-image {
+        height: 300px;
+    }
+}
+.cta-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+footer{
+    background: #222;
+    color: white;
+    padding: 20px;
+    font-size: 14px;;
+}
