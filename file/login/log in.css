@@ -1,0 +1,141 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background: #f8f9fa;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #a730ec;
+}
+header h1 {
+    margin: 2px 0;
+    margin-left: 10px;
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+header ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover {
+    background: white;
+    color: brown;
+    padding: 4px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+        
+.header h1 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+        
+.header p {
+    color: #666;
+    font-size: 14px;
+}      
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #444;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border-color: #6e8efb;
+    outline: none;
+}
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+        
+.remember {
+    display: flex;
+    align-items: center;
+}
+
+.remember input {
+    width: auto;
+    margin-right: 8px;
+}
+.forgot-password {
+    color: #6e8efb;
+    text-decoration: none;
+    font-weight: 500;
+}
+        
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+footer{
+    background: #222;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+}
